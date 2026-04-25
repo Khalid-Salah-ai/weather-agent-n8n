@@ -19,3 +19,8 @@
 - Added Gmail node to send the weather report via email.
 - Connected all nodes successfully.
 - Workflow executed successfully with 1 item flowing through each node.
+
+## Step 4 — Configure Schedule Trigger
+- Set the workflow to run every day in the morning.
+- Selected the desired time for the daily weather email.
+- Confirmed that the Schedule Trigger is active and ready.
