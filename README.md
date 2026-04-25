@@ -1,4 +1,3 @@
-
 # Weather Agent — n8n Automation
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -6,24 +5,18 @@
 ![n8n](https://img.shields.io/badge/Built%20with-n8n-red)
 ![Last Commit](https://img.shields.io/github/last-commit/Khalid-Salah-ai/weather-agent-n8n)
 
-My first AI automation project using n8n. This workflow fetches real-time weather data and generates a natural-language weather report using an AI agent.
-
-# Weather Agent — n8n Automation
-
-Automated workflow built with **n8n** to send **daily weather updates** by email.  
-The workflow retrieves real-time weather data from **OpenWeatherMap** and delivers a clean, natural-language weather report through **Gmail**.
-
-This project is fully documented step-by-step inside `notes.md`, making it easy to understand, modify, and extend.
+My first AI automation project using n8n.  
+This workflow fetches real-time weather data and generates a natural-language weather report using an AI agent.
 
 ---
 
 ## 🌤️ Features
 
-- Fetches real-time weather data automatically
-- Sends a daily email with a clear weather summary
-- Uses OpenWeatherMap API + Gmail OAuth2
-- Fully customizable workflow
-- Easy to export, import, and extend
+- Fetches real-time weather data automatically  
+- Sends a daily email with a clear weather summary  
+- Uses OpenWeatherMap API + Gmail OAuth2  
+- Fully customizable workflow  
+- Easy to export, import, and extend  
 
 ---
 
@@ -34,19 +27,19 @@ This project is fully documented step-by-step inside `notes.md`, making it easy 
 
 ## 🚀 How It Works
 
-1. A Schedule Trigger runs every morning.
-2. The workflow calls OpenWeatherMap API to fetch weather data.
-3. n8n formats the data into a readable weather report.
-4. Gmail node sends the report to the configured email address.
+1. A Schedule Trigger runs every morning.  
+2. The workflow calls OpenWeatherMap API to fetch weather data.  
+3. n8n formats the data into a readable weather report.  
+4. Gmail node sends the report to the configured email address.  
 
 ---
 
 ## 🛠️ Prerequisites
 
-- Running n8n instance (local, cloud, or self-hosted)
-- OpenWeatherMap API key
-- Gmail OAuth2 credentials
-- Basic familiarity with n8n editor
+- Running n8n instance (local, cloud, or self-hosted)  
+- OpenWeatherMap API key  
+- Gmail OAuth2 credentials  
+- Basic familiarity with n8n editor  
 
 ---
 
@@ -55,7 +48,7 @@ This project is fully documented step-by-step inside `notes.md`, making it easy 
 - Open the workflow in n8n  
 - Click **Execute Workflow**  
 - Verify weather data + email delivery  
-- Once confirmed, the schedule trigger handles daily automation
+- Once confirmed, the schedule trigger handles daily automation  
 
 ---
 
@@ -86,4 +79,7 @@ Credentials must be reconfigured after import.
 ---
 
 ## 📄 License
+
+This project is licensed under the MIT License.
+
 
