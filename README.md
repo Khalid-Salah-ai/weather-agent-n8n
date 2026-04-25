@@ -8,6 +8,10 @@
 My first AI automation project using n8n.  
 This workflow fetches real-time weather data and generates a natural-language weather report using an AI agent.
 
+## 📸 Workflow Screenshot
+
+![Workflow Screenshot](https://github.com/Khalid-Salah-ai/weather-agent-n8n/blob/main/Screenshot%202026-04-25%20215545.png)
+
 ---
 
 ## 🌤️ Features
@@ -81,5 +85,6 @@ Credentials must be reconfigured after import.
 ## 📄 License
 
 This project is licensed under the MIT License.
+
 
 
