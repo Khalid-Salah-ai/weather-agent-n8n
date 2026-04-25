@@ -32,3 +32,10 @@
 - Verified that the email was sent successfully through Gmail.
 - Workflow is now fully functional and ready for daily automation.
 
+- ## Step 6 — Configure Credentials
+- Created and configured OpenWeatherMap API credentials inside n8n.
+- Added the API key securely using the built‑in credentials manager.
+- Configured Gmail OAuth2 credentials for sending emails.
+- Successfully authenticated both services and confirmed they work during workflow execution.
+
+
