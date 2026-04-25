@@ -95,6 +95,22 @@ To import the workflow into any n8n instance:
 5. n8n will recreate the entire workflow, including all nodes and connections.
 6. Update credentials if needed, since API keys and OAuth tokens are not included in exports.
 
+## Step 13 — Prerequisites
+To run or modify this workflow, the following prerequisites are required:
+
+1. n8n Instance**
+   - A running n8n environment (local, cloud, or self‑hosted).
+
+2. OpenWeatherMap Account**
+   - A valid API key for accessing real‑time weather data.
+
+3. Google Account**
+   - Gmail OAuth2 credentials configured inside n8n for sending emails.
+
+4. Basic Understanding of n8n**
+   - Ability to navigate the editor, add nodes, and test workflows.
+
+These prerequisites ensure the workflow can run smoothly without errors.
 
 
 
