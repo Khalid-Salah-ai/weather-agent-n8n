@@ -63,6 +63,19 @@ To test or run the workflow manually inside n8n:
    - The email is sent without errors.
 5. Once validated, the Schedule Trigger will run the workflow automatically every day at the configured time.
 
+   ## Step 10 — How to Modify the Workflow
+To update or extend the workflow in the future:
+
+1. Open the workflow inside the n8n editor.
+2. Select any node to adjust its configuration (e.g., API key, email content, schedule time).
+3. Add new nodes by clicking the “+” button and choosing the desired integration.
+4. Connect new nodes to the existing flow using drag‑and‑drop connections.
+5. After making changes, click **Execute Workflow** to test everything.
+6. Once validated, click **Save** to apply the updates.
+
+This ensures the workflow remains flexible and easy to maintain over time.
+
+
 
 
 
