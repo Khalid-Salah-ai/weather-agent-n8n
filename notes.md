@@ -38,4 +38,14 @@
 - Configured Gmail OAuth2 credentials for sending emails.
 - Successfully authenticated both services and confirmed they work during workflow execution.
 
+- ## Step 7 — Repository Structure
+The project repository now contains the following files:
+
+- **README.md** — Project overview and description.
+- **notes.md** — Detailed build notes documenting each step of the workflow creation.
+- (Workflow itself is stored inside the n8n instance and can be exported later if needed.)
+
+This structure keeps the project clean, organized, and easy to understand for anyone reviewing it.
+
+
 
