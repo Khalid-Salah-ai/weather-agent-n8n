@@ -24,3 +24,11 @@
 - Set the workflow to run every day in the morning.
 - Selected the desired time for the daily weather email.
 - Confirmed that the Schedule Trigger is active and ready.
+
+- ## Step 5 — Test and Validate Workflow
+- Executed the workflow manually using the “Execute Workflow” button.
+- Confirmed that all nodes processed 1 item successfully.
+- Verified that the weather data was fetched correctly from OpenWeatherMap.
+- Verified that the email was sent successfully through Gmail.
+- Workflow is now fully functional and ready for daily automation.
+
