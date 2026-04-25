@@ -113,9 +113,49 @@ To run or modify this workflow, the following prerequisites are required:
 These prerequisites ensure the workflow can run smoothly without errors.
 
 
+## Step 14 — Project Limitations
+While the workflow is fully functional, it has a few limitations:
+
+1. API Rate Limits
+   - OpenWeatherMap may restrict the number of requests depending on the plan.
+
+  2.Credential Requirements
+   - Gmail OAuth2 tokens may expire and require re‑authentication.
+
+3. Static Email Content
+   - The email message is currently simple and may require customization for advanced use cases.
+
+4. Single Location
+   - The workflow fetches weather data for one city only unless extended.
+
+These limitations can be improved in future updates.
 
 
+## Step 15 — Future Improvements
+Potential enhancements that can be added in future updates:
 
+1. Multi‑City Support
+   - Allow the workflow to fetch weather data for multiple locations.
+
+2. Advanced Email Formatting
+   - Generate a richer email template with icons, colors, and structured layout.
+
+3. AI‑Generated Weather Summary
+   - Use an AI node to create a more natural and personalized weather report.
+
+4. Error Handling
+   - Add fallback logic if the API fails or returns incomplete data.
+
+5. Logging and Monitoring
+   - Store workflow logs or send alerts if something goes wrong.
+
+These improvements can expand the workflow’s capabilities and make it more robust.
+
+
+## Project Summary
+This project automates the process of sending daily weather updates using n8n.  
+It fetches real-time weather data from OpenWeatherMap and delivers a natural-language weather report via Gmail.  
+The workflow is fully documented step-by-step, making it easy to understand, modify, and extend.
 
 
 
