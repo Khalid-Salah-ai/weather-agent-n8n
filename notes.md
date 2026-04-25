@@ -85,6 +85,19 @@ To export the workflow from n8n:
 5. This ensures the workflow can be shared, versioned, or restored at any time.
 
 
+   ## Step 12 — Importing the Workflow
+To import the workflow into any n8n instance:
+
+1. Open the n8n editor.
+2. Click on the workflow menu (top-right corner).
+3. Select **Import from File**.
+4. Choose the previously exported JSON file.
+5. n8n will recreate the entire workflow, including all nodes and connections.
+6. Update credentials if needed, since API keys and OAuth tokens are not included in exports.
+
+
+
+
 
 
 
