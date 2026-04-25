@@ -52,6 +52,18 @@ The goal of this project is to automate the delivery of daily weather updates us
 The workflow retrieves real-time weather data every morning and sends a clear, natural-language weather report via email.  
 This automation removes the need for manual checking and ensures consistent daily updates.
 
+## Step 9 — How to Run the Workflow
+To test or run the workflow manually inside n8n:
+
+1. Open the workflow in the n8n editor.
+2. Click the **Execute Workflow** button at the bottom.
+3. Wait for each node to process the incoming data.
+4. Confirm that:
+   - The weather data is fetched successfully.
+   - The email is sent without errors.
+5. Once validated, the Schedule Trigger will run the workflow automatically every day at the configured time.
+
+
 
 
 
