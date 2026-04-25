@@ -1,4 +1,11 @@
-# weather-agent-n8n
+
+# Weather Agent — n8n Automation
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![n8n](https://img.shields.io/badge/Built%20with-n8n-red)
+![Last Commit](https://img.shields.io/github/last-commit/Khalid-Salah-ai/weather-agent-n8n)
+
 My first AI automation project using n8n. This workflow fetches real-time weather data and generates a natural-language weather report using an AI agent.
 
 # Weather Agent — n8n Automation
