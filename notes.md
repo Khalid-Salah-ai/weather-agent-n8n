@@ -47,5 +47,11 @@ The project repository now contains the following files:
 
 This structure keeps the project clean, organized, and easy to understand for anyone reviewing it.
 
+## Step 8 — Project Purpose
+The goal of this project is to automate the delivery of daily weather updates using n8n.  
+The workflow retrieves real-time weather data every morning and sends a clear, natural-language weather report via email.  
+This automation removes the need for manual checking and ensures consistent daily updates.
+
+
 
 
