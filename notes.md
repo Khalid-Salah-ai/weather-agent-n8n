@@ -75,6 +75,16 @@ To update or extend the workflow in the future:
 
 This ensures the workflow remains flexible and easy to maintain over time.
 
+## Step 11 — Exporting the Workflow
+To export the workflow from n8n:
+
+1. Open the workflow inside the n8n editor.
+2. Click on the workflow menu (top-right corner).
+3. Select **Export** to download the workflow as a JSON file.
+4. Save the exported file for backup or for importing into another n8n instance.
+5. This ensures the workflow can be shared, versioned, or restored at any time.
+
+
 
 
 
